@@ -7,3 +7,8 @@ redis: false
 url: ''
 serviceName: 'Endpoint Submission Form'
 feedbackLink: '#'
+jira: {
+    customFieldMappings: {
+        'customfield_10000': 'emails'
+    }
+}
